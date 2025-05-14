@@ -68,7 +68,7 @@ export default function Page() {
                 {" "}
                 full stack web developer{" "}
               </span>
-              currently pursuing B.Tech at IIT Dhanbad. I'm passionate about building products that simplify lives and create real impact. I enjoy working on new and innovative ideas—especially on the tech side, where I handle everything from backend systems to product architecture.{" "}
+              currently pursuing B.Tech at IIT Dhanbad. I&apos;m passionate about building products that simplify lives and create real impact. I enjoy working on new and innovative ideas—especially on the tech side, where I handle everything from backend systems to product architecture.{" "}
             </div>
           </div>
         </div>
