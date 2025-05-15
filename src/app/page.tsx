@@ -25,6 +25,9 @@ import {
   SiDart,
   SiFlutter,
   SiTurborepo,
+  SiFastapi,
+  SiAxios,
+  SiJsonwebtokens,
 } from "react-icons/si";
 import { FaJava } from "react-icons/fa";
 import { IoLogoElectron, IoShield } from "react-icons/io5";
@@ -349,52 +352,44 @@ export default function Page() {
                         </div>
                         <div className="flex gap-2">
                           <Badge>
-                            <SiTypescript
+                            <SiReact
                               className="-ms-0.5 opacity-60"
                               size={12}
                               aria-hidden="true"
                             />
-                            TypeScript
+                            Reactjs
                           </Badge>
                           <Badge>
-                            <SiNextdotjs
+                            <SiNodedotjs
                               className="-ms-0.5 opacity-60"
                               size={12}
                               aria-hidden="true"
                             />
-                            Nextjs
+                            Nodejs
                           </Badge>
                           <Badge>
-                            <SiPostgresql
+                            <SiExpress
                               className="-ms-0.5 opacity-60"
                               size={12}
                               aria-hidden="true"
                             />
-                            PostgresSQL
+                            Express
                           </Badge>
                           <Badge>
-                            <SiPrisma
+                            <SiFastapi
                               className="-ms-0.5 opacity-60"
                               size={12}
                               aria-hidden="true"
                             />
-                            Prisma
+                            FastAPI
                           </Badge>
                           <Badge>
-                            <SiSupabase
+                            <SiMongodb
                               className="-ms-0.5 opacity-60"
                               size={12}
                               aria-hidden="true"
                             />
-                            Supabase
-                          </Badge>
-                          <Badge>
-                            <IoShield
-                              className="-ms-0.5 opacity-60"
-                              size={12}
-                              aria-hidden="true"
-                            />
-                            Better-Auth
+                            MongoDB
                           </Badge>
                           <Badge>
                             <SiTailwindcss
@@ -408,8 +403,8 @@ export default function Page() {
                       </div>
                       <div className="justify-center items-center w-full flex sm:justify-end mt-2">
                         <Image
-                          src="/cvision.png"
-                          alt="CVision"
+                          src="/KrishiSakha.png"
+                          alt="KrishiSakha"
                           width={300}
                           height={300}
                         />
@@ -469,38 +464,54 @@ export default function Page() {
                         </div>
                         <div className="flex gap-2">
                           <Badge>
-                            <SiTypescript
+                            <SiNodedotjs
                               className="-ms-0.5 opacity-60"
                               size={12}
                               aria-hidden="true"
                             />
-                            TypeScript
+                            Nodejs
                           </Badge>
                           <Badge>
-                            <SiNextdotjs
+                            <SiExpress
                               className="-ms-0.5 opacity-60"
                               size={12}
                               aria-hidden="true"
                             />
-                            Nextjs
+                            Express
                           </Badge>
                           <Badge>
-                            <SiTailwindcss
+                            <SiFastapi
                               className="-ms-0.5 opacity-60"
                               size={12}
                               aria-hidden="true"
                             />
-                            TailwindCSS
+                            FastAPI
+                          </Badge>
+                          <Badge>
+                            <SiPython
+                              className="-ms-0.5 opacity-60"
+                              size={12}
+                              aria-hidden="true"
+                            />
+                            Python
+                          </Badge>
+                          <Badge>
+                            <SiMongodb
+                              className="-ms-0.5 opacity-60"
+                              size={12}
+                              aria-hidden="true"
+                            />
+                            MongoDB
                           </Badge>
                         </div>
                       </div>
                       <div className="justify-center items-center w-full flex sm:justify-end mt-2">
-                        <Image
-                          src="/redact.png"
-                          alt="Redact"
+                        {/* <Image
+                          src="/Fitfusion.png"
+                          alt="FitFusion"
                           width={300}
                           height={300}
-                        />
+                        /> */}
                       </div>
                     </div>
                   </AccordionContent>
@@ -551,44 +562,36 @@ export default function Page() {
                         </div>
                         <div className="flex gap-2">
                           <Badge>
-                            <SiTypescript
+                            <SiReact
                               className="-ms-0.5 opacity-60"
                               size={12}
                               aria-hidden="true"
                             />
-                            TypeScript
+                            Reactjs
                           </Badge>
                           <Badge>
-                            <SiNextdotjs
+                            <SiAxios
                               className="-ms-0.5 opacity-60"
                               size={12}
                               aria-hidden="true"
                             />
-                            Nextjs
+                            Axios
                           </Badge>
                           <Badge>
-                            <SiPostgresql
+                            <SiNodedotjs
                               className="-ms-0.5 opacity-60"
                               size={12}
                               aria-hidden="true"
                             />
-                            PostgresSQL
+                            Nodejs
                           </Badge>
                           <Badge>
-                            <SiPrisma
+                            <SiExpress
                               className="-ms-0.5 opacity-60"
                               size={12}
                               aria-hidden="true"
                             />
-                            Prisma
-                          </Badge>
-                          <Badge>
-                            <IoShield
-                              className="-ms-0.5 opacity-60"
-                              size={12}
-                              aria-hidden="true"
-                            />
-                            NextAuth
+                            Express
                           </Badge>
                           <Badge>
                             <SiTailwindcss
@@ -602,8 +605,8 @@ export default function Page() {
                       </div>
                       <div className="justify-center items-center w-full flex sm:justify-end mt-2">
                         <Image
-                          src="/universe.png"
-                          alt="Universe"
+                          src="/parsePDF.png"
+                          alt="parsePDF"
                           width={300}
                           height={300}
                         />
@@ -661,7 +664,7 @@ export default function Page() {
                           </Button>
                           <Button className="hover:bg-orange-600" asChild>
                             <a
-                              href="https://medium-clone-lovat-rho.vercel.app/signup"
+                              href="https://medium-divy.vercel.app/signup"
                               target="_blank"
                               rel="noopener noreferrer"
                             >
