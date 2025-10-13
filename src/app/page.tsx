@@ -76,7 +76,7 @@ export default function Page() {
           </div>
         </div>
 
-        {/* <div id="achievements">
+        <div id="achievements">
           <div className="sm:my-40 my-20">
             <div className="tracking-[0.4em] lg:text-2xl md:text-xl sm:text-lg text-sm">
               EXPERIENCE
@@ -86,80 +86,96 @@ export default function Page() {
                 <AccordionItem value="item-1">
                   <AccordionTrigger className="lg:text-4xl md:text-3xl sm:text-2xl text-xl font-medium">
                     <div className="flex lg:gap-36 md:gap-28 sm:gap-16 gap-8 w-full">
-                      <div>Audient</div>
-                      <div>Web Developer Lead</div>
-                      <div>Jan 2025 - Present</div>
+                      <div>FlairX</div>
+                      <div>Software Engineer Intern</div>
+                      <div>July 2025 - Sept 2025</div>
                     </div>
                   </AccordionTrigger>
                   <AccordionContent>
                     <div className="sm:flex sm:flex-row justify-between items-start">
                       <div className="w-full max-w-[800px] justify-start">
                         <ul className="list-disc pl-6 space-y-2">
-                            <li>
-                            Designed and developed a feature-rich event booking
-                            platform catering to <strong className="dark:text-white text-black">
-                            comedy, poetry, and music shows</strong>, both online and offline, enhancing audience
-                            engagement and accessibility.
-                            </li>
-                            <li>
-                            Led the <strong className="dark:text-white text-black">end-to-end development</strong> of the platform using{" "}
-                            <strong className="dark:text-white text-black">
-                              Next.js
-                            </strong>
-                            ,{" "}
-                            <strong className="dark:text-white text-black">
-                              TypeScript
-                            </strong>{" "}
-                            ,{" "}
-                            <strong className="dark:text-white text-black">
-                              Prisma
-                            </strong>{" "}
-                            and{" "}
-                            <strong className="dark:text-white text-black">
-                              Supabase
-                            </strong>
-                            , ensuring a seamless user experience, high
-                            performance, and scalability.
-                            </li>
-                            <li>
-                            Built a <strong className="dark:text-white text-black">comprehensive admin dashboard</strong> for event
-                            organizers, enabling effortless event creation,
-                            dynamic ticket pricing, attendee management, and
-                            revenue tracking.
-                            </li>
-                            <li>
-                            Implemented performance optimizations, boosting page
-                            speed by <strong className="dark:text-white text-black">40%</strong> and improving <strong className="dark:text-white text-black">SEO rankings</strong> for greater
-                            discoverability.
-                            </li>
-                            <li>
-                            Integrated{" "}
-                            <strong className="dark:text-white text-black">
-                              Razorpay
-                            </strong>{" "}
-                            for <strong className="dark:text-white text-black">secure and efficient payment processing</strong>,
-                            streamlining the ticketing experience for users.
-                            </li>
+                          <li>
+                            Developed the <strong className="dark:text-white text-black">AI Questionnaire Generation</strong> feature for the company app, automating interview question creation based on candidate skills and job descriptions.
+                          </li>
+                          <li>
+                            Built the <strong className="dark:text-white text-black">Completed Interview Listing</strong> module for the Admin Portal, enabling managers to efficiently review and track interview outcomes.
+                          </li>
+                          <li>
+                            Collaborated with cross-functional teams to design, implement, and optimize user-facing features, ensuring high performance and scalability.
+                          </li>
+                          {/* <li>
+                            Worked on both <strong className="dark:text-white text-black">frontend</strong> and <strong className="dark:text-white text-black">backend</strong>, building AI-driven backend modules inspired by <strong className="dark:text-white text-black">Agentic AI</strong> for smart workflow automation.
+                          </li> */}
+                          <li>
+                            Worked with <strong className="dark:text-white text-black">React.js</strong>, <strong className="dark:text-white text-black">Redux</strong>, <strong className="dark:text-white text-black">Node.js</strong>, and <strong className="dark:text-white text-black">PostgreSQL</strong> to deliver full-stack solutions.
+                          </li>
                         </ul>
                         <div className="my-4">
                           <Button className="hover:bg-orange-600" asChild>
                             <a
-                              href="https://audient-monorepo-user.vercel.app/"
+                              href="https://www.flairx.ai/"
                               target="_blank"
                               rel="noopener noreferrer"
                             >
-                              Live
+                              Visit
                             </a>
                           </Button>
                         </div>
                       </div>
                       <div className="justify-center items-center w-full h-full flex sm:justify-end">
                         <Image
-                          src="/logo-dark.svg"
+                          src="/FlairX.svg"
                           alt="Redact"
-                          className="mr-4 mt-4"
+                          className="mr-4 mt-4 invert dark:invert-0"
                           width={200}
-                          height={300}
+                          height={200}
+                        />
+                      </div>
+                    </div>
+                  </AccordionContent>
+                </AccordionItem>
+                <AccordionItem value="item-2">
+                  <AccordionTrigger className="lg:text-4xl md:text-3xl sm:text-2xl text-xl font-medium">
+                    <div className="flex lg:gap-44 md:gap-28 sm:gap-16 gap-8 w-full">
+                      <div>Decube Labs </div>
+                      <div>Web Developer </div>
+                      <div>Apr 2025 - July 2025</div>
+                    </div>
+                  </AccordionTrigger>
+                  <AccordionContent>
+                    <div className="sm:flex sm:flex-row justify-between items-start">
+                      <div className="w-full max-w-[800px] justify-start">
+                        <ul className="list-disc pl-6 space-y-2">
+                          <li>
+                            Developed the frontend for <strong className="dark:text-white text-black">Skia Coffee</strong>, a premium coffee-selling website, focusing on responsive UI and clean component architecture.
+                          </li>
+                           <li>
+                            Worked on both <strong className="dark:text-white text-black">frontend</strong> and <strong className="dark:text-white text-black">backend</strong> development, integrating APIs and optimizing data flow between the app and the server for better performance.
+                          </li>
+                          <li>
+                            Utilized <strong className="dark:text-white text-black">React.js</strong>, <strong className="dark:text-white text-black">Redux</strong>, <strong className="dark:text-white text-black">Node.js</strong>, and <strong className="dark:text-white text-black">PostgreSQL</strong> to deliver full-stack, scalable solutions.
+                          </li>
+                        </ul>
+                        <div className="my-4">
+                          <Button className="hover:bg-orange-600" asChild>
+                            <a
+                              href="https://www.decubelabs.com/"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
+                              Visit
+                            </a>
+                          </Button>
+                        </div>
+                      </div>
+                      <div className="justify-center items-center w-full h-full flex sm:justify-end">
+                        <Image
+                          src="/decube.svg"
+                          alt="Redact"
+                          className="mr-4 mt-4 invert dark:invert-0"
+                          width={200}
+                          height={200} 
                         />
                       </div>
                     </div>
@@ -168,7 +184,7 @@ export default function Page() {
               </Accordion>
             </div>
           </div>
-        </div> */}
+        </div>
 
         {/* <div id="achievements">
           <div className="sm:my-40 my-20">

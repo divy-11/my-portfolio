@@ -25,18 +25,18 @@ const fontSans = FontSans({
 
 export const metadata: Metadata = {
 	title: {
-		default: "Divy Sangwan",
+		default: "Divy",
 		template: "",
 	},
 	description: "",
 	icons: {
-		icon: "/logo.png", // Add this line
+		icon: "/logo.png",
 	},
 	openGraph: {
-		title: "Divy Sangwan",
+		title: "Divy",
 		description: "",
 		url: "",
-		siteName: "Divy Sangwan",
+		siteName: "Divy",
 		locale: "en_US",
 		type: "website",
 	},
