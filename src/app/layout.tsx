@@ -30,7 +30,7 @@ export const metadata: Metadata = {
 	},
 	description: "",
 	icons: {
-		icon: "/logo.png",
+		icon: "/logo-dev.png",
 	},
 	openGraph: {
 		title: "Divy",
